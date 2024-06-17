@@ -1,0 +1,248 @@
+#navbar1{
+    background-color: #333!important;
+    
+}
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    flex: 1;    
+  }
+  .navbar-collapse {
+    display: flex;
+    justify-content: center;
+  }
+  .navbar-nav .nav-link, .navbar-brand {
+    color: white !important;
+}
+/*
+.dropdown-menu {
+    background-color: #343a40;
+}
+.dropdown-menu .dropdown-item {
+    color: white !important;
+}
+.dropdown-menu .dropdown-item:hover {
+    background-color: #495057;
+}
+    */
+
+  .container-1{
+    position: sticky;
+    background-image: url(images/water.jfif);
+    height: 100vh;
+    max-width: 1550px;
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;    
+}
+
+/* Container-2 CSS here Start */
+.container-2{
+    display: flex;
+    #btn{
+        box-shadow: 0 0px 10px black;
+        transition: box-shadow 0.3s ease;
+        border-radius: 25px 5px;
+    }
+    #btn:hover{
+        background-color: #0e6eff;
+    }
+}
+       /* Container-2 1050px big screen CSS here Start */
+@media (min-width:1050px) {
+    .title-x{
+        font-size: 20px;
+        margin: 100px 0px 0px 50px;
+    }
+    .title{
+        font-size: 30px;
+        margin: 20px 0px 0px 50px;
+    }
+    .desc{
+        font-size: 20px;
+        margin: 20px 0px 0px 50px;
+    }
+    #btn{
+        font-size: 25px;
+        margin: 50px 0px 0px 100px; 
+        width: 200px;               
+    }            
+}
+/* Container-2 Small screen mobile view  CSS here Start */
+@media (max-width:750px) {
+    .title-x{
+        font-size: 12px;
+        margin: 20px 0px 0px 10px;
+    }
+    .title{
+        font-size: 14px;
+        margin-top: 5px;
+        margin-left: 10px;
+    }
+    .desc{
+        font-size: 12px;
+        margin: 8px 0px 0px 13px;
+    }
+    .img-fluid{
+        width: 450px;
+    }
+    #btn{
+        text-align: center;
+        margin: 5px 0px 5px 60px;
+        font-size: 10px;
+        width: 120px;        
+    }         
+}
+/* Container-2 CSS here End Here */
+
+
+/* Container-3 CSS here Start */
+.container-3{
+    display: flex;
+    .title-desc-3{
+        display: flex;
+    }
+}
+       /* Container-3 1050px big screen CSS here Start */
+@media (min-width:1050px) {
+   
+    .title-3{
+        font-size: 30px;
+        margin: 20px 0px 0px 50px;
+    }
+    .desc-3{
+        font-size: 20px;
+        margin: 20px 0px 0px 50px;
+    }
+           
+}
+/* Container-3 Small screen mobile view  CSS here Start */
+@media (max-width:750px) {
+    
+    .title-3{
+        font-size: 14px;
+        margin-top: 5px;
+        margin-left: 10px;
+    }
+    .desc-3{
+        font-size: 12px;
+        margin: 8px 0px 0px 13px;
+    }
+       
+}
+/* Container-3 CSS here End Here */
+
+/* Container-4 CSS here Start */
+.container-4{
+    background-color: gray;
+    margin-top: 00px;
+    padding: 50px 50px 100px 50px;
+    .title-desc-4{
+       text-align: center;
+    }
+}
+       /* Container-4 1050px big screen CSS here Start */
+@media (min-width:1050px) {
+   
+    .title-y{
+        font-size: 30px;
+        margin: 20px 0px 0px 50px;
+    }
+    .title-4{
+        font-size: 25px;
+        margin: 20px 0px 0px 50px;
+    }
+    .title-desc-4{
+        font-size: 20px;
+        margin: 20px 0px 0px 50px;
+    }
+    #image-1{
+        width: 750px;
+        margin-top: 20px;
+    }
+           
+}
+/* Container-4 Small screen mobile view  CSS here Start */
+@media (max-width:750px) {
+    
+    .title-y{
+        font-size: 20x;
+        margin-top: 5px;
+        margin-left: 10px;
+    }
+    .title-4{
+        font-size: 18px;
+        margin: 20px 0px 0px 50px;
+    }
+    .title-desc-4{
+        font-size: 12px;
+        margin: 8px 0px 0px 13px;
+       
+    }
+       
+}
+/* Container-4 CSS here End Here */
+
+/* Container-5 CSS here Start */
+.container-5{
+    color: white;
+    background-color: black;  
+    
+    
+   
+    
+}
+
+@media (min-width:1050px){
+    .container-5{
+        display: flex;
+        gap: 100px;
+        #image-1{
+            padding-bottom: 30px;
+        } 
+        
+    }
+}
+
+@media (max-width:750px){
+    .container-5{
+        display: block;
+        padding: 50px 50px 0px 50px;
+        #image-1{
+            padding-bottom: 10px;
+        } 
+    }
+}
+
+/*footer */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+.footer a {
+    color: #fff;
+    text-decoration: none;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
+.footer .form-control {
+    border: none;
+    border-radius: 0;
+}
+.footer .btn-primary {
+    border-radius: 0;
+}
+.footer .footer-logo img {
+    max-width: 100px;
+}
+.footer .footer-logo h2 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+.footer .footer-logo p {
+    font-size: 0.9rem;
+}

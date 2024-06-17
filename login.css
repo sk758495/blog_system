@@ -1,0 +1,25 @@
+body {
+background-image: url(images/02background.png);
+background-repeat: no-repeat;
+background-size: cover;
+font-size: 20px;
+font-weight: 600;
+
+}
+
+
+
+.container-fluid{
+background-color:transparent;
+
+}
+
+ @media (min-width:1050px){
+ 	.container-fluid{
+ 		width: 600px;
+ 		margin-top: 100px;
+ 		margin-left: 200px;
+ 		padding: 50px 150px 50px 0px;
+ 		border-radius: 15px;
+ 	}
+ }
